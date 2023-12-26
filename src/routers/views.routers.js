@@ -1,0 +1,16 @@
+import { Router } from 'express'
+
+const router = Router()
+
+// Aca SOLO habilitamos un endpoint /chat para probar el chat websockets
+// Tenemos un solo endpoint que renderiza la plantilla /chat
+router.get('/chat', (req, res) => {
+    
+    // Renderizando la plantilla /chat
+    res.render('chat', {
+        title: 'Chat Secreto'
+    })
+    
+})
+
+export default router

@@ -1,0 +1,12 @@
+/* 
+- Aca dejamos la hoja de estilo en blanco 
+- No es prioridad de backend 
+- Solo la ponemos xq en el main.handlebars hicimos referencia a esta hoja de estilo 
+
+*** Este seria el Estilo que usariamos en casa de querer activarlo ***
+body {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+*/
